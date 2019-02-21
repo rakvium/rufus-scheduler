@@ -1239,7 +1239,7 @@ scheduler.max_work_threads += 10
 ## Rufus::Scheduler.singleton
 
 Do not want to store a reference to your rufus-scheduler instance?
-Then ```Rufus::Scheduler.singleton``` can help, it returns a singleon instance of the scheduler, initialized the first time this class method is called.
+Then ```Rufus::Scheduler.singleton``` can help, it returns a singleton instance of the scheduler, initialized the first time this class method is called.
 
 ```ruby
 Rufus::Scheduler.singleton.every '10s' { puts "hello, world!" }
